@@ -1,0 +1,30 @@
+.lightbox-container .lightbox-img-thumbnail:first-child{
+    width: 60% !important;
+}
+.lightbox-container .lightbox-img-thumbnail{
+    width: 17% !important;
+    height: auto !important;
+    display: inline-block ;
+    float: left;
+    border:3px solid #505050;
+    padding: 5px;
+    background-color: white;
+}
+
+.lightbox-backdrop.hide-controls div{
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+@media (min-width:992px){
+    .product-details{
+        padding: 2rem;
+
+    }
+    .product-details.text-black{
+        border-left: 1px solid #000000;
+    }
+    .product-details.text-light{
+        border-left: 1px solid #c0823c65;
+    }
+}
+
